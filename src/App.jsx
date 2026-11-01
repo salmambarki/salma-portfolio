@@ -298,7 +298,7 @@ function App() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a className="nav-cv" href="/cv/Salma_Mbarki_CV.pdf" download>
+        <a className="nav-cv" href="/cv/Salma.pdf" download>
           <DownloadIcon />
           CV
         </a>
@@ -334,7 +334,7 @@ function App() {
                 View My Projects
               </a>
 
-              <a href="/cv/Salma_Mbarki_CV.pdf" download className="button secondary">
+              <a href="/cv/Salma.pdf" download className="button secondary">
                 <DownloadIcon />
                 Download CV
               </a>
