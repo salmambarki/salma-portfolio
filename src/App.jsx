@@ -3,6 +3,7 @@ import "./index.css";
 
 const GITHUB_URL = "https://github.com/salmambarki";
 const LINKEDIN_URL = "https://www.linkedin.com/in/salma-mbarki-ab81b4260/";
+const CV_URL = "/cv/SalmaMBARKI_CV.pdf";
 
 const skills = [
   { title: "Programming", text: "Python · Java · JavaScript · C · C++ · HTML · CSS" },
@@ -298,9 +299,9 @@ function App() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a className="nav-cv" href="/cv/Salma.pdf" download>
+        <a className="nav-cv" href={CV_URL} target="_blank" rel="noopener noreferrer">
           <DownloadIcon />
-          CV
+          View CV
         </a>
       </header>
 
@@ -334,7 +335,7 @@ function App() {
                 View My Projects
               </a>
 
-              <a href="/cv/Salma.pdf" download className="button secondary">
+              <a href={CV_URL} download="SalmaMBARKI_CV.pdf" className="button secondary">
                 <DownloadIcon />
                 Download CV
               </a>
